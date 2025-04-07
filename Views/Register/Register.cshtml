@@ -1,0 +1,35 @@
+@model BTLWNCao.Models.User
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link rel="stylesheet" href="~/css/register.css" />
+<div class="register-container">
+    <form asp-action="Register" method="post">
+        <p>Đăng ký</p>
+        <div class="form-group">
+            <label for="TenDangNhap">Tên Đăng Nhập</label>
+            <input type="text" class="form-control" id="TenDangNhap" name="TenDangNhap" required />
+        </div>
+        <div class="form-group">
+            <label for="MatKhau">Mật Khẩu</label>
+            <input type="password" class="form-control" id="MatKhau" name="MatKhau" required />
+        </div>
+        <div class="form-group">
+            <label for="MatKhauNhapLai">Nhập Lại Mật Khẩu</label>
+            <input type="password" class="form-control" id="MatKhauNhapLai" name="MatKhauNhapLai" required />
+        </div>
+        <div class="form-group">
+            <label for="SoDienThoai">Số Điện Thoại</label>
+            <input type="text" class="form-control" id="SoDienThoai" name="SoDienThoai" required />
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="Email" name="Email" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Đăng Ký</button>
+        <div class="text-center mt-3">
+            <a href="/Login/Login" class="text-light">Đã có tài khoản? Đăng nhập tại đây</a>
+        </div>
+    </form>
+</div>

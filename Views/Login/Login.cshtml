@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="~/css/login.css" />
+<div class="login-container">
+    <form asp-action="Login" method="post">
+    <p>Đăng nhập</p>
+    <div class="form-group">
+        <label for="TenDangNhap">Tên Đăng Nhập</label>
+        <input type="text" class="form-control" id="TenDangNhap" name="TenDangNhap" required />
+    </div>
+    <div class="form-group">
+        <label for="MatKhau">Mật Khẩu</label>
+        <input type="password" class="form-control" id="MatKhau" name="MatKhau" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+    <div class="text-center mt-3">
+        <a href="/Register/Register" class="text-light">Chưa có tài khoản? Đăng ký tại đây</a>
+    </div>
+</form>
+</div>
