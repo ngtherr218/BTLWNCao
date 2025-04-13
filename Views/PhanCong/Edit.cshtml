@@ -10,7 +10,7 @@
 
 <body>
 
-    
+
     <!-- Main Content -->
     <h2>Sửa phân công công việc</h2>
 
@@ -85,8 +85,16 @@
                         $('#maUserCongTy').append('<option disabled>' + data.error + '</option>');
                     } else {
                         $.each(data, function (i, user) {
-                            var selected = user.maUserCongTy == '@Model.MaUserCongTy' ? "selected" : "";
-                            $('#maUserCongTy').append('<option value="' + user.maUserCongTy + '" ' + selected + '>' + user.ten + '</option>');
+                            if (Array.isArray(user)) {
+                                user.forEach(function (item) {
+                                    var selected = item.maUserCongTy == '@Model.MaUserCongTy' ? "selected" : "";
+
+                                    console.log("Phần tử trong mảng user:", item);
+                                    $('#maUserCongTy').append('<option value="' + item.maUserCongTy + '" ' + selected + ' >' + (item.ten ?? 'Không rõ tên') + '</option>');
+                                });
+                            } else {
+                                console.log("user không phải là mảng:", user);
+                            }
                         });
                     }
                 },
@@ -119,7 +127,8 @@
                             alert("Công việc đã được sửa thành công!");
                             window.location.reload();
                         } else {
-                            alert("Lỗi: " + data.errors.join(", "));
+                            alert("Lỗi: " + data.errors);
+                            console.log(data.errors)
                         }
                     },
                     error: function () {

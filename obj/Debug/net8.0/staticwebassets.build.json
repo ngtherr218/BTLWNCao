@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nIG5zUXPmeDiW0R8bOBnHo9v32x8PyH8RYAFfT3oYZA=",
+  "Hash": "4MPLB1WyO1F+0Bi4i35g1tM7qAGLw0fMrKGrS1ikFQU=",
   "Source": "BTLWNCao",
   "BasePath": "_content/BTLWNCao",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\edit.css"
+    },
+    {
+      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\home.css",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\login.css",
@@ -281,6 +300,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\files\\G11. Buổi 3.pptx"
+    },
+    {
+      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 2  (1).pptx",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "files/G11.Buổi 2  (1).pptx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\G11.Buổi 2  (1).pptx"
     },
     {
       "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 2 .pptx",

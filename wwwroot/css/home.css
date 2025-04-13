@@ -1,0 +1,51 @@
+/* Tổng thể container */
+body {
+    margin: 0;
+    background-color: #1e1e2f;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar dạng dọc */
+.sidebar {
+    width: 80px;
+    height: 100vh;
+    background-color: #1b1b2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Icon trong sidebar */
+.sidebar a {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+/* Khi rê chuột vào icon */
+.sidebar a:hover {
+    background-color: #2f2f45;
+}
+
+/* Icon hình ảnh */
+.sidebar a img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+/* Hover animation */
+.sidebar a:hover img {
+    transform: scale(1.1);
+}

@@ -22,5 +22,8 @@ namespace BTLWNCao.Models
         public UserCongTy UserCongTy { get; set; }
 
         public ICollection<TinNhan> TinNhans { get; set; }
+
+        // Trạng thái thành viên (active hoặc đã rời nhóm)
+        public bool IsActive { get; set; } = true;
     }
 }

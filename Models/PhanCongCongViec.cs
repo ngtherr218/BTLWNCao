@@ -39,6 +39,6 @@ namespace BTLWNCao.Models
         public int MaCongTy { get; set; }
 
         [ForeignKey("MaCongTy")]
-        public CongTy? CongTy { get; set; }
+        public CongTy? CongTy { get; set; } 
     }
 }

@@ -21,13 +21,13 @@ namespace BTLWNCao.Models
         [ForeignKey("MaNhomChat")]
         public NhomChat NhomChat { get; set; }
 
-        public string NoiDung { get; set; }
+        public string? NoiDung { get; set; }
 
         [StringLength(255)]
-        public string Anh { get; set; }
+        public string? Anh { get; set; }
 
         [StringLength(255)]
-        public string FileTaiLieu { get; set; }
+        public string? FileTaiLieu { get; set; }
 
         public DateTime ThoiGianGui { get; set; } = DateTime.Now;
     }

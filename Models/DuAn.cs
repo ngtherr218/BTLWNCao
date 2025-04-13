@@ -24,7 +24,7 @@ namespace BTLWNCao.Models
         [Required, StringLength(255)]
         public string TenDuAn { get; set; }
 
-        public string NoiDungDuAn { get; set; }
+        public string? NoiDungDuAn { get; set; }
 
         public ICollection<PhanCongCongViec> PhanCongCongViecs { get; set; }
     }

@@ -1,0 +1,243 @@
+@model BTLWNCao.Models.NhomChat
+
+@{
+    ViewData["Title"] = "Chi tiết nhóm chat";
+    var danhSachNhom = (List<BTLWNCao.Models.NhomChat>)ViewBag.NhomCuaToi;
+    bool chuaChonNhom = Model == null;
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<link href="~/css/chat.css" rel="stylesheet" />
+
+
+<div class="chat-wrapper d-flex">
+    <!-- Sidebar nhóm -->
+    <div class="sidebar-group-list">
+        <!-- Tạo nhóm mới (ở trên tiêu đề) -->
+        <div class="mb-3">
+            <input type="text" id="tenNhomSidebar" class="form-control mb-2" placeholder="Tên nhóm mới..." />
+            <button id="btnTaoNhomSidebar" class="btn btn-sm w-100">+ Tạo nhóm</button>
+        </div>
+
+        <h5 class="text-light mb-3">Nhóm của bạn</h5>
+
+        @foreach (var nhom in danhSachNhom)
+        {
+            <a href="@Url.Action("ChiTiet", "NhomChat", new { id = nhom.MaNhomChat })" class="btn btn-secondary btn-sm btn-nhom @(Model != null && nhom.MaNhomChat == Model.MaNhomChat ? "active" : "")">
+                @nhom.TenNhomChat
+            </a>
+        }
+    </div>
+
+    <!-- Nội dung chính -->
+    <div class="flex-grow-1 d-flex flex-column">
+        @if (chuaChonNhom)
+        {
+            <div class="centered-placeholder w-100">
+                <img src="/images/placeholder-chat.png" alt="Chưa chọn nhóm" class="placeholder-image" />
+            </div>
+        }
+        else
+        {
+            <div class="chat-header d-flex justify-content-between align-items-center p-3">
+                <h5 class="mb-0">@Model.TenNhomChat</h5>
+            </div>
+
+            <div class="d-flex flex-grow-1 overflow-hidden">
+                <div class="p-3 thanhvien-container" style="width: 280px; overflow-y: auto;">
+                    <h6>Thành viên</h6>
+                    <ul id="thanhvien-list" class="list-unstyled">
+                        @foreach (var user in Model.UserNhomChats)
+                        {
+                            <li class="mb-1 d-flex justify-content-between align-items-center" data-user="@user.MaUserCongTy">
+                                <span>@user.UserCongTy.User.TenUser</span>
+                                <button class="btn btn-sm btn-danger btn-xoa"
+                                        data-nhom="@Model.MaNhomChat"
+                                        data-user="@user.MaUserCongTy"
+                                        data-ten="@user.UserCongTy.User.TenUser">Xoá</button>
+                            </li>
+                        }
+                    </ul>
+
+                    <div class="mt-4">
+                        <h6>Thêm thành viên</h6>
+                        <div class="input-group">
+                            <button class="btn btn-outline-success-custom dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+                                + Chọn thành viên
+                            </button>
+                            <ul class="dropdown-menu w-100">
+                                @foreach (var goiY in (List<BTLWNCao.Models.UserCongTy>)ViewBag.ThanhVienGoiY)
+                                {
+                                    <li>
+                                        <a href="#" class="dropdown-item btn-them" data-nhom="@Model.MaNhomChat" data-user="@goiY.MaUserCongTy">@goiY.User.TenUser</a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-grow-1 d-flex flex-column px-3 py-3">
+                    <div id="khung-chat" class="chat-box p-3 mb-2">
+                        <div class="text-muted">Đang tải tin nhắn...</div>
+                    </div>
+
+                    <form id="form-gui" enctype="multipart/form-data">
+                        <input type="hidden" name="maNhomChat" value="@Model.MaNhomChat" />
+                        <div class="form-chat">
+                            <textarea name="noiDung" class="form-control" rows="2" placeholder="Nhập tin nhắn..."></textarea>
+                            <input type="file" name="file" class="form-control" style="max-width: 160px;" />
+                            <button type="submit" class="btn btn-success btn-gui">Gửi</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+@if (!chuaChonNhom)
+{
+<script>
+    const maNhomChat = @Model.MaNhomChat;
+
+    $('#form-gui').submit(function (e) {
+        e.preventDefault();
+        const formData = new FormData(this);
+
+        $.ajax({
+            type: 'POST',
+            url: '/TinNhan/GuiTinNhan',
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (res) {
+                if (res.success) {
+                    $('textarea[name="noiDung"]').val('');
+                    $('input[name="file"]').val('');
+                    loadTinNhan();
+                } else {
+                    toastr.error('Lỗi khi gửi tin nhắn: ' + res.message);
+                }
+            },
+            error: function () {
+                toastr.error("Lỗi kết nối khi gửi tin nhắn.");
+            }
+        });
+    });
+
+    function loadTinNhan() {
+        $.get('/TinNhan/LayTinNhanTheoNhom', { maNhomChat: maNhomChat }, function (res) {
+            if (res.success === false || !Array.isArray(res.$values) || res.$values.length === 0) {
+                $('#khung-chat').html("<div class='text-muted'>Nhóm chat chưa có ai nhắn tin.</div>");
+                return;
+            }
+
+            let html = '';
+            res.$values.forEach(t => {
+                html += ` 
+                    <div class="mb-3">
+                        <strong>${t.tenNguoiGui}</strong>: ${t.noiDung ?? ""}
+                        <div class="text-muted small">(${new Date(t.thoiGianGui).toLocaleString()})</div>
+                        ${t.anh ? `<div><img src="/uploads/${t.anh}" style="max-height:100px; border-radius:8px;" /></div>` : ''}
+                        ${t.fileTaiLieu ? `<div><a href="/uploads/${t.fileTaiLieu}" target="_blank">Tải tài liệu</a></div>` : ''}
+                    </div>
+                `;
+            });
+
+            $('#khung-chat').html(html);
+            $('#khung-chat').scrollTop($('#khung-chat')[0].scrollHeight);
+        }).fail(function () {
+            toastr.error("Không thể lấy tin nhắn.");
+        });
+    }
+
+    setInterval(loadTinNhan, 3000);
+    loadTinNhan();
+</script>
+}
+<script>
+    $(document).on('click', '.btn-them', function (e) {
+        e.preventDefault();
+        const button = $(this);
+        const maNhom = button.data('nhom');
+        const maUser = button.data('user');
+        const tenUser = button.text().trim();
+
+        $.post('/NhomChat/ThemThanhVien', {
+            maNhomChat: maNhom,
+            maUserCongTy: maUser
+        }, function (res) {
+            if (res.success) {
+                toastr.success(res.message);
+                button.closest('li').remove();
+
+                const newItem = `
+                    <li class="mb-1 d-flex justify-content-between align-items-center" data-user="${maUser}">
+                        <span>${tenUser}</span>
+                        <button class="btn btn-sm btn-danger btn-xoa"
+                                data-nhom="${maNhom}"
+                                data-user="${maUser}"
+                                data-ten="${tenUser}">Xoá</button>
+                    </li>
+                `;
+                $('#thanhvien-list').append(newItem);
+            } else {
+                toastr.error(res.message);
+            }
+        });
+    });
+
+    $(document).on('click', '.btn-xoa', function (e) {
+        e.preventDefault();
+        const button = $(this);
+        const maNhom = button.data('nhom');
+        const maUser = button.data('user');
+        const tenUser = button.data('ten');
+
+        $.post('/NhomChat/XoaThanhVien', {
+            maNhomChat: maNhom,
+            maUserCongTy: maUser
+        }, function (res) {
+            if (res.success) {
+                toastr.success(res.message);
+                button.closest('li').remove();
+            } else {
+                toastr.error(res.message);
+            }
+        });
+    });
+
+    $('#btnTaoNhomSidebar').click(function () {
+        const tenNhom = $('#tenNhomSidebar').val().trim();
+        if (!tenNhom) {
+            toastr.error("Vui lòng nhập tên nhóm.");
+            return;
+        }
+
+        fetch('/NhomChat/CreateAjax', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ TenNhomChat: tenNhom })
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data.success) {
+                toastr.success(data.message);
+                window.location.href = `/NhomChat/ChiTiet/${data.data.maNhomChat}`;
+            } else {
+                toastr.error(data.message);
+            }
+        })
+        .catch(err => {
+            toastr.error("Lỗi khi tạo nhóm: " + err.message);
+        });
+    });
+</script>
+}

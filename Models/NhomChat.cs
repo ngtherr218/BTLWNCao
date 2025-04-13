@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BTLWNCao.Models
 {
+    [Table("NhomChats")]
     public class NhomChat
     {
         [Key]
