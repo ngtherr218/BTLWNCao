@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
-using BTLWNCao.Models;
 using System.Linq;
+using BTLWNCao.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BTLWNCao.Controllers
 {
@@ -23,7 +23,9 @@ namespace BTLWNCao.Controllers
         [HttpPost]
         public IActionResult Login(string TenDangNhap, string MatKhau)
         {
-            var user = _context.Users.FirstOrDefault(u => u.TenDangNhap == TenDangNhap && u.MatKhau == MatKhau);
+            var user = _context.Users.FirstOrDefault(u =>
+                u.TenDangNhap == TenDangNhap && u.MatKhau == MatKhau
+            );
 
             if (user != null)
             {

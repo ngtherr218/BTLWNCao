@@ -1,9 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using BTLWNCao.Models;
 using System.Linq;
 using System.Threading.Tasks;
 using BCrypt.Net;
+using BTLWNCao.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 public class RegisterController : Controller
 {
@@ -21,7 +21,13 @@ public class RegisterController : Controller
     }
 
     [HttpPost]
-    public IActionResult Register(string TenDangNhap, string MatKhau, string MatKhauNhapLai, string SoDienThoai, string Email)
+    public IActionResult Register(
+        string TenDangNhap,
+        string MatKhau,
+        string MatKhauNhapLai,
+        string SoDienThoai,
+        string Email
+    )
     {
         // Kiểm tra mật khẩu nhập lại
         if (MatKhau != MatKhauNhapLai)
@@ -44,7 +50,7 @@ public class RegisterController : Controller
             TenDangNhap = TenDangNhap,
             MatKhau = MatKhau, // Nên hash mật khẩu trong ứng dụng thực tế
             SoDienThoai = SoDienThoai,
-            Email = Email
+            Email = Email,
         };
 
         // Lưu vào CSDL
