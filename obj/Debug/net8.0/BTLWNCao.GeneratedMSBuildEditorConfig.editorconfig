@@ -17,91 +17,95 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BTLWNCao
 build_property.RootNamespace = BTLWNCao
-build_property.ProjectDir = D:\Project\Web\LTWNangCao\BTLWNCao\
+build_property.ProjectDir = C:\Users\Pham Huy Tuan\BTLWNCao\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Project\Web\LTWNangCao\BTLWNCao
+build_property.MSBuildProjectDirectory = C:\Users\Pham Huy Tuan\BTLWNCao
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/CongTy/TaoCongTy.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/CongTy/SuaCongTy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ1R5XFN1YUNvbmdUeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/CongTy/TaoCongTy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ1R5XFRhb0NvbmdUeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/CTy/Index.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/CTy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1R5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/DuAn/CreateProject.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/DuAn/CreateProject.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVBblxDcmVhdGVQcm9qZWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/DuAn/Index.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/DuAn/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVBblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Home/Index.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Home/Privacy.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Login/Login.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/NhomChat/ChiTiet.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/NhomChat/ChiTiet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhvbUNoYXRcQ2hpVGlldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/PhanCong/Create.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/PhanCong/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhbkNvbmdcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/PhanCong/Edit.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/PhanCong/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhbkNvbmdcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/PhanCong/Index.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/PhanCong/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhbkNvbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Register/Register.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Register/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Shared/Error.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Shared/_SlideBar.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Shared/_SlideBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbGlkZUJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/UserCongTy/AddEmployee.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/UserCongTy/AddEmployee.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbmdUeVxBZGRFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/UserCongTy/Index.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/UserCongTy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckNvbmdUeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/_ViewImports.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/_ViewStart.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/Web/LTWNangCao/BTLWNCao/Views/Shared/_Layout.cshtml]
+[C:/Users/Pham Huy Tuan/BTLWNCao/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9te0a9enll

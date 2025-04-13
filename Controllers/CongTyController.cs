@@ -75,5 +75,57 @@ namespace BTLWNCao.Controllers
         {
             return View(new CongTyViewModel());
         }
+        // GET: Hiển thị form sửa công ty
+        [HttpGet]
+        public IActionResult SuaCongTy()
+        {
+            int maUser = HttpContext.Session.GetInt32("UserId") ?? 0;
+
+            // Tìm công ty mà user đang làm Admin
+            var userCongTy = _context.UserCongTys.FirstOrDefault(uc => uc.MaUser == maUser && uc.ChucVu == "Admin");
+            if (userCongTy == null)
+                return RedirectToAction("SuaCongTy");
+
+            var congTy = _context.CongTys.FirstOrDefault(c => c.MaCongTy == userCongTy.MaCongTy);
+            if (congTy == null)
+                return NotFound();
+
+            var model = new CongTyViewModel
+            {
+                TenCongTy = congTy.TenCongTy,
+                SoDienThoai = congTy.SoDienThoai,
+                ThongTinCongTy = congTy.ThongTinCongTy
+            };
+
+            return View(model);
+        }
+
+        // POST: Cập nhật công ty
+        [HttpPost]
+        public IActionResult SuaCongTy(CongTyViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                int maUser = HttpContext.Session.GetInt32("UserId") ?? 0;
+
+                var userCongTy = _context.UserCongTys.FirstOrDefault(uc => uc.MaUser == maUser && uc.ChucVu == "Admin");
+                if (userCongTy == null)
+                    return RedirectToAction("TaoCongTy");
+
+                var congTy = _context.CongTys.FirstOrDefault(c => c.MaCongTy == userCongTy.MaCongTy);
+                if (congTy == null)
+                    return NotFound();
+
+                congTy.TenCongTy = model.TenCongTy;
+                congTy.SoDienThoai = model.SoDienThoai;
+                congTy.ThongTinCongTy = model.ThongTinCongTy;
+
+                _context.SaveChanges();
+
+                return RedirectToAction("Index", "UserCongTy");
+            }
+
+            return View(model);
+        }
     }
 }

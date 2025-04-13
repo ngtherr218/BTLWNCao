@@ -41,14 +41,14 @@ namespace BTLWNCao.Controllers
                 }
 
                 // Mã hóa mật khẩu
-                // string hashedPassword = BCrypt.Net.BCrypt.HashPassword(model.MatKhau);
+                string hashedPassword = BCrypt.Net.BCrypt.HashPassword(model.MatKhau);
 
                 // Tạo đối tượng User mới
                 var user = new User
                 {
                     TenUser = model.TenDangNhap,
                     TenDangNhap = model.TenDangNhap,
-                    MatKhau = model.MatKhau,
+                    MatKhau = hashedPassword,
                     SoDienThoai = model.SoDienThoai,
                     Email = model.Email
                 };

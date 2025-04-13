@@ -3,10 +3,27 @@
 <link rel="stylesheet" href="~/css/PhanQuyen.css" />
 <h2>Phân quyền người dùng trong công ty</h2>
 
-<p>
+<div style="display: flex; gap: 10px;">
     <a asp-action="AddEmployee" class="btn btn-success">Thêm Nhân Viên</a>
-</p>
+    <a asp-controller="CongTy" asp-action="SuaCongTy" class="btn btn-success">Sửa Công Ty</a>
+</div>
 
+<div class="container">
+        <div class="sidebar">
+            <a href="/NhomChat/ChiTiet" target="_self">
+                <img src="~/images/chat.png" alt="Chat" width="40" height="40" />
+            </a>
+            <a href="/CTy/Index" target="_self">
+                <img src="~/images/project.png" alt="Project" width="40" height="40" />
+            </a>
+            <a href="#" target="_self">
+                <img src="~/images/profile.png" alt="Profile" width="40" height="40" />
+            </a>
+            <a href="/Login/Logout" target="_self">
+                <img src="~/images/setting.png" alt="Setting" width="40" height="40" />
+            </a>
+        </div>
+    </div>
 <div class="table-responsive"> @* Bọc bảng ở đây *@
     <table class="table table-bordered">
         <thead>

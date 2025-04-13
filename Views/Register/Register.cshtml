@@ -1,4 +1,5 @@
-@model BTLWNCao.Models.User
+@model BTLWNCao.Models.RegisterViewModel
+
 @{
     ViewData["Title"] = "Register";
 }
@@ -7,29 +8,48 @@
 <div class="register-container">
     <form asp-action="Register" method="post">
         <p>Đăng ký</p>
+
+        @* Hiển thị lỗi tổng quát *@
+        <div asp-validation-summary="All" class="text-danger"></div>
+
         <div class="form-group">
             <label for="TenDangNhap">Tên Đăng Nhập</label>
-            <input type="text" class="form-control" id="TenDangNhap" name="TenDangNhap" required />
+            <input type="text" class="form-control" id="TenDangNhap" name="TenDangNhap" asp-for="TenDangNhap" required />
+            <span asp-validation-for="TenDangNhap" class="text-danger"></span>
         </div>
+
         <div class="form-group">
             <label for="MatKhau">Mật Khẩu</label>
-            <input type="password" class="form-control" id="MatKhau" name="MatKhau" required />
+            <input type="password" class="form-control" id="MatKhau" name="MatKhau" asp-for="MatKhau" required />
+            <span asp-validation-for="MatKhau" class="text-danger"></span>
         </div>
+
         <div class="form-group">
             <label for="MatKhauNhapLai">Nhập Lại Mật Khẩu</label>
-            <input type="password" class="form-control" id="MatKhauNhapLai" name="MatKhauNhapLai" required />
+            <input type="password" class="form-control" id="MatKhauNhapLai" name="MatKhauNhapLai" asp-for="MatKhauNhapLai" required />
+            <span asp-validation-for="MatKhauNhapLai" class="text-danger"></span>
         </div>
+
         <div class="form-group">
             <label for="SoDienThoai">Số Điện Thoại</label>
-            <input type="text" class="form-control" id="SoDienThoai" name="SoDienThoai" required />
+            <input type="text" class="form-control" id="SoDienThoai" name="SoDienThoai" asp-for="SoDienThoai" required />
+            <span asp-validation-for="SoDienThoai" class="text-danger"></span>
         </div>
+
         <div class="form-group">
             <label for="Email">Email</label>
-            <input type="email" class="form-control" id="Email" name="Email" required />
+            <input type="email" class="form-control" id="Email" name="Email" asp-for="Email" required />
+            <span asp-validation-for="Email" class="text-danger"></span>
         </div>
+
         <button type="submit" class="btn btn-primary">Đăng Ký</button>
+
         <div class="text-center mt-3">
             <a href="/Login/Login" class="text-light">Đã có tài khoản? Đăng nhập tại đây</a>
         </div>
     </form>
 </div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");} <!-- Đảm bảo script validation được thêm vào -->
+}

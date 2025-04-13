@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "54qKQZuGE4fT/x+OHNy4mZ8QYdcZgnq+dkTk+eD8Fe4=",
+  "Hash": "38dHXkDzURsbtRCOsauRr9FmwgzBphEzOTi+jsypuvI=",
   "Source": "BTLWNCao",
   "BasePath": "_content/BTLWNCao",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BTLWNCao\\wwwroot",
       "Source": "BTLWNCao",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BTLWNCao.styles.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BTLWNCao.styles.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "BTLWNCao.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BTLWNCao.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BTLWNCao.styles.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTLWNCao.bundle.scp.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTLWNCao.bundle.scp.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "BTLWNCao.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTLWNCao.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTLWNCao.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\AddCompany.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\AddCompany.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/AddCompany.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\AddCompany.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\chat.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\chat.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/chat.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\chat.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\create.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\create.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/create.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\create.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\createproject.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\createproject.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/createproject.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\createproject.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\edit.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\edit.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/edit.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\edit.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\home.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\home.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/home.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\login.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\login.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\phancong.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\phancong.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/phancong.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\phancong.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\PhanQuyen.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\PhanQuyen.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/PhanQuyen.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\PhanQuyen.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\project.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\project.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/project.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\project.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\register.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\register.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/register.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\register.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\css\\site.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\favicon.ico",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\chat.png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\chat.png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/chat.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\files\\chat.png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11. Buổi 3.pptx",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\G11. Buổi 3.pptx",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/G11. Buổi 3.pptx",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\files\\G11. Buổi 3.pptx"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 2  (1).pptx",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\G11.Buổi 2  (1).pptx",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/G11.Buổi 2  (1).pptx",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\files\\G11.Buổi 2  (1).pptx"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 2 .pptx",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\G11.Buổi 2 .pptx",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/G11.Buổi 2 .pptx",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\files\\G11.Buổi 2 .pptx"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 4 (1).pptx",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\G11.Buổi 4 (1).pptx",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/G11.Buổi 4 (1).pptx",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\files\\G11.Buổi 4 (1).pptx"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 4.pptx",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\G11.Buổi 4.pptx",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/G11.Buổi 4.pptx",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\files\\G11.Buổi 4.pptx"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\NguyenThiTho.xlsx",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\NguyenThiTho.xlsx",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/NguyenThiTho.xlsx",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\files\\NguyenThiTho.xlsx"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\user (1).png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\files\\user (1).png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "files/user (1).png",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\files\\user (1).png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\chat.png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\images\\chat.png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "images/chat.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\chat.png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\hgocmhjk.png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\images\\hgocmhjk.png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "images/hgocmhjk.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\hgocmhjk.png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\placeholder-chat.png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\images\\placeholder-chat.png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "images/placeholder-chat.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\placeholder-chat.png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\profile.png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\images\\profile.png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "images/profile.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\profile.png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\project.png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\images\\project.png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "images/project.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\project.png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\setting.png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\images\\setting.png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "images/setting.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\setting.png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\user (1).png",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\images\\user (1).png",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "images/user (1).png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user (1).png"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\js\\site.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BTLWNCao",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
       "BasePath": "_content/BTLWNCao",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1687,6 +1687,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\uploads\\750d923e-9a27-4df0-b72c-53700f0ed7c2.png",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "uploads/750d923e-9a27-4df0-b72c-53700f0ed7c2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\750d923e-9a27-4df0-b72c-53700f0ed7c2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\uploads\\ad5d7959-3f9f-4ea2-9a7a-280711193fb1.png",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "uploads/ad5d7959-3f9f-4ea2-9a7a-280711193fb1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ad5d7959-3f9f-4ea2-9a7a-280711193fb1.png"
     }
   ]
 }

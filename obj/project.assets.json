@@ -4747,19 +4747,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nguye\\.nuget\\packages\\": {}
+    "C:\\Users\\Pham Huy Tuan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\BTLWNCao.csproj",
+      "projectUniqueName": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\BTLWNCao.csproj",
       "projectName": "BTLWNCao",
-      "projectPath": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\BTLWNCao.csproj",
-      "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\",
+      "projectPath": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\BTLWNCao.csproj",
+      "packagesPath": "C:\\Users\\Pham Huy Tuan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pham Huy Tuan\\BTLWNCao\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nguye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pham Huy Tuan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
