@@ -40,7 +40,7 @@ namespace BTLWNCao.Controllers
 
             List<PhanCongCongViec> danhSach;
 
-            if (chucVu == "Quản lý dự án")
+            if (chucVu == "Quản lý")
             {
                 danhSach = await _context
                     .PhanCongCongViecs.Include(pc => pc.UserCongTy)

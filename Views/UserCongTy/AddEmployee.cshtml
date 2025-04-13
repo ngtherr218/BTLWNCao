@@ -1,0 +1,56 @@
+@model BTLWNCao.ViewModels.AddEmployeeViewModel // <-- Thêm dòng này, đảm bảo đúng namespace
+
+<link rel="stylesheet" href="~/css/PhanQuyen.css" />
+@{
+    ViewData["Title"] = "Thêm Nhân Viên vào Công Ty";
+    // Không cần lấy từ ViewBag nữa vì đã có trong Model
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="AddEmployee" method="post">
+            
+
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="UserId" class="control-label" style="color: aliceblue;">Người Dùng</label>
+                @if (Model.AvailableUsers.Any()) // <-- Lấy danh sách từ Model
+                {
+                    @* Sử dụng asp-for để binding và asp-items để đổ dữ liệu *@
+                    <select asp-for="UserId" class="form-control" asp-items="Model.AvailableUsers">
+                        <option value="">-- Chọn người dùng --</option>
+                    </select>
+                }
+                else
+                {
+                     <div class="alert alert-warning">Không có người dùng nào phù hợp để thêm vào công ty.</div>
+                }
+                 @* asp-validation-for giờ sẽ hoạt động với Model.UserId *@
+                 <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="ChucVu" class="control-label" style="color: aliceblue;">Chức vụ</label>
+                @* Sử dụng asp-for và asp-items *@
+                <select asp-for="ChucVu" class="form-control" asp-items="Model.Roles">
+                     <option value="">-- Chọn chức vụ --</option>
+                </select>
+                 @* asp-validation-for giờ sẽ hoạt động với Model.ChucVu *@
+                 <span asp-validation-for="ChucVu" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" @(Model.AvailableUsers.Any() ? "" : "disabled")>Thêm vào Công Ty</button>
+                <a asp-action="Index" class="btn btn-secondary">Hủy bỏ</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,63 +1,66 @@
-using System.Linq;
-using System.Threading.Tasks;
-using BCrypt.Net;
-using BTLWNCao.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using BTLWNCao.Models;
+using System.Linq;
+using System.Text.RegularExpressions;
 
-public class RegisterController : Controller
+namespace BTLWNCao.Controllers
 {
-    private readonly ApplicationDbContext _context;
-
-    public RegisterController(ApplicationDbContext context)
+    public class RegisterController : Controller
     {
-        _context = context;
-    }
+        private readonly ApplicationDbContext _context;
 
-    [HttpGet]
-    public IActionResult Register()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    public IActionResult Register(
-        string TenDangNhap,
-        string MatKhau,
-        string MatKhauNhapLai,
-        string SoDienThoai,
-        string Email
-    )
-    {
-        // Kiểm tra mật khẩu nhập lại
-        if (MatKhau != MatKhauNhapLai)
+        public RegisterController(ApplicationDbContext context)
         {
-            ModelState.AddModelError("MatKhauNhapLai", "Mật khẩu nhập lại không khớp.");
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
             return View();
         }
 
-        // Kiểm tra tên đăng nhập đã tồn tại chưa
-        if (_context.Users.Any(u => u.TenDangNhap == TenDangNhap))
+        [HttpPost]
+        public IActionResult Register(RegisterViewModel model)
         {
-            ModelState.AddModelError("TenDangNhap", "Tên đăng nhập đã tồn tại.");
-            return View();
+            if (ModelState.IsValid)
+            {
+                // Kiểm tra tên đăng nhập đã tồn tại chưa
+                if (_context.Users.Any(u => u.TenDangNhap == model.TenDangNhap))
+                {
+                    ModelState.AddModelError("TenDangNhap", "Tên đăng nhập đã tồn tại.");
+                    return View(model);
+                }
+
+                // Kiểm tra mật khẩu có đủ điều kiện không
+                var passwordRegex = new Regex(@"^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$");
+                if (!passwordRegex.IsMatch(model.MatKhau))
+                {
+                    ModelState.AddModelError("MatKhau", "Mật khẩu phải có ít nhất 8 ký tự, bao gồm chữ cái hoa, số và ký tự đặc biệt.");
+                    return View(model);
+                }
+
+                // Mã hóa mật khẩu
+                // string hashedPassword = BCrypt.Net.BCrypt.HashPassword(model.MatKhau);
+
+                // Tạo đối tượng User mới
+                var user = new User
+                {
+                    TenUser = model.TenDangNhap,
+                    TenDangNhap = model.TenDangNhap,
+                    MatKhau = model.MatKhau,
+                    SoDienThoai = model.SoDienThoai,
+                    Email = model.Email
+                };
+
+                // Lưu vào CSDL
+                _context.Users.Add(user);
+                _context.SaveChanges();
+
+                return RedirectToAction("Login", "Login");
+            }
+
+            return View(model);
         }
-
-        // Tạo đối tượng User mới
-        var user = new User
-        {
-            TenUser = TenDangNhap, // Hoặc có thể tạo thêm input để nhập tên đầy đủ
-            TenDangNhap = TenDangNhap,
-            MatKhau = MatKhau, // Nên hash mật khẩu trong ứng dụng thực tế
-            SoDienThoai = SoDienThoai,
-            Email = Email,
-        };
-
-        // Lưu vào CSDL
-        _context.Users.Add(user);
-        _context.SaveChanges();
-
-        // Chuyển hướng sau khi đăng ký thành công
-        return RedirectToAction("Login", "Login");
     }
 }

@@ -1,7 +1,9 @@
-using Microsoft.AspNetCore.Mvc;
-using BTLWNCao.Models;
 using System.Linq;
+using BCrypt.Net;
+using BTLWNCao.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BTLWNCao.Controllers
 {
@@ -23,34 +25,49 @@ namespace BTLWNCao.Controllers
         [HttpPost]
         public IActionResult Login(string TenDangNhap, string MatKhau)
         {
-            var user = _context.Users.FirstOrDefault(u => u.TenDangNhap == TenDangNhap && u.MatKhau == MatKhau);
+            // Kiểm tra nếu người dùng tồn tại trong cơ sở dữ liệu
+            var user = _context.Users.FirstOrDefault(u => u.TenDangNhap == TenDangNhap);
 
-            if (user != null)
+            if (user != null && !string.IsNullOrEmpty(user.MatKhau))
             {
-                // Lưu thông tin User vào session
+                // Mật khẩu đúng, lưu session
                 HttpContext.Session.SetInt32("UserId", user.MaUser);
+                HttpContext.Session.SetString("TenUser", user.TenUser ?? user.TenDangNhap);
+
                 HttpContext.Session.SetString("UserName", user.TenUser);
 
-                // Truy vấn bảng UserCongTy để lấy MaUserCongTy
-                var userCongTy = _context.UserCongTys.FirstOrDefault(uct => uct.MaUser == user.MaUser);
+                // Kiểm tra người dùng có công ty hay không
+                var userCongTy = _context
+                    .UserCongTys.Include(uc => uc.CongTy)
+                    .FirstOrDefault(uc => uc.MaUser == user.MaUser);
+
                 if (userCongTy != null)
                 {
+                    // Lưu thông tin công ty và phân quyền
+                    HttpContext.Session.SetInt32("CompanyId", userCongTy.MaCongTy);
                     HttpContext.Session.SetString("MaUserCongTy", userCongTy.MaUserCongTy.ToString());
+                    HttpContext.Session.SetString("UserRole", userCongTy.ChucVu);
+                    if (userCongTy.ChucVu == "Admin")
+                        return RedirectToAction("Index", "UserCongTy"); // Trang phân quyền
+                    else
+                        return RedirectToAction("ChiTiet", "NhomChat"); // Trang chat cho nhân viên
                 }
+                else
+                {
+                    // Người dùng chưa có công ty, chuyển đến trang tạo công ty
+                    return RedirectToAction("TaoCongTy", "CongTy");
+                }
+            }
 
-                // ✅ Chuyển tới trang tạo nhóm chat
-                return RedirectToAction("ChiTiet", "NhomChat");
-            }
-            else
-            {
-                ViewBag.ThongBao = "Sai tên đăng nhập hoặc mật khẩu.";
-                return View();
-            }
+            // Nếu tài khoản không tồn tại hoặc mật khẩu sai
+            ViewBag.ThongBao = "Sai tên đăng nhập hoặc mật khẩu.";
+            return View();
         }
 
         [HttpGet]
         public IActionResult Logout()
         {
+            // Xóa session khi người dùng đăng xuất
             HttpContext.Session.Clear();
             return RedirectToAction("Login");
         }

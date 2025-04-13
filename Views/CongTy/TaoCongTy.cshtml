@@ -1,0 +1,51 @@
+@using BTLWNCao.Models
+@model CongTyViewModel
+
+@{
+    ViewData["Title"] = "Tạo Công Ty";
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<link rel="stylesheet" href="~/css/AddCompany.css" />
+
+<h1 class="text-white">Chào mừng bạn đến với FITHOUCHAT: Trước hết bạn phải tạo công ty riêng của mình!</h1>
+<h2 class="text-info" style="text-align: center;">@ViewData["Title"]</h2>
+
+<form asp-action="TaoCongTy" method="post" class="mt-4">
+    <div class="form-group mb-3">
+        <label for="TenCongTy" class="form-label">Tên Công Ty</label>
+        <input type="text" id="TenCongTy" name="TenCongTy" class="form-control" value="@Model.TenCongTy" required />
+        <span asp-validation-for="TenCongTy" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="SoDienThoai" class="form-label">Số Điện Thoại</label>
+        <input type="text"
+       id="SoDienThoai"
+       name="SoDienThoai"
+       class="form-control"
+       value="@Model.SoDienThoai"
+       required
+       maxlength="10"
+       pattern="\d{10}"
+       title="Số điện thoại phải gồm đúng 10 chữ số và chỉ bao gồm số." />
+
+        <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label for="ThongTinCongTy" class="form-label">Thông Tin Công Ty</label>
+        <textarea id="ThongTinCongTy" name="ThongTinCongTy" class="form-control" rows="4" required>@Model.ThongTinCongTy</textarea>
+        <span asp-validation-for="ThongTinCongTy" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Tạo Công Ty</button>
+
+    <!-- Hiển thị thông báo lỗi nếu có -->
+    <div asp-validation-summary="All" class="text-danger mt-3"></div>
+</form>

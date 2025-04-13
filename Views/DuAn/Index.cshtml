@@ -15,7 +15,7 @@
         <div class="main-content">
             <h2>Dự án của công ty</h2>
 
-            @if (ViewBag.ChucVu == "Quản lý dự án")
+            @if (ViewBag.ChucVu == "Quản lý")
             {
                 <a asp-controller="DuAn" asp-action="CreateProject" asp-route-maCongTy="@ViewBag.MaCongTy" class="btn btn-primary mb-3">
                     + Thêm Dự Án

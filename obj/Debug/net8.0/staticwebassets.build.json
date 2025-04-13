@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4MPLB1WyO1F+0Bi4i35g1tM7qAGLw0fMrKGrS1ikFQU=",
+  "Hash": "54qKQZuGE4fT/x+OHNy4mZ8QYdcZgnq+dkTk+eD8Fe4=",
   "Source": "BTLWNCao",
   "BasePath": "_content/BTLWNCao",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTLWNCao.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\AddCompany.css",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "css/AddCompany.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AddCompany.css"
     },
     {
       "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\chat.css",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\phancong.css"
+    },
+    {
+      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\PhanQuyen.css",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "css/PhanQuyen.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\PhanQuyen.css"
     },
     {
       "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\project.css",

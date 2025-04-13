@@ -1,0 +1,428 @@
+/* --- General Styles (Dark Theme) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2f; /* Màu nền chính từ trang chủ */
+    color: #2f2f45; /* Màu chữ sáng mặc định cho dễ đọc */
+    padding: 20px;
+    margin: 0; /* Đảm bảo không có margin mặc định */
+}
+
+/* Sidebar dạng dọc */
+.sidebar {
+    width: 80px;
+    height: 100vh;
+    background-color: #1b1b2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Icon trong sidebar */
+.sidebar a {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+/* Khi rê chuột vào icon */
+.sidebar a:hover {
+    background-color: #2f2f45;
+}
+
+/* Icon hình ảnh */
+.sidebar a img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+/* Hover animation */
+.sidebar a:hover img {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: #ffffff; /* Tiêu đề màu trắng */
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid #2f2f45; /* Đường kẻ dưới màu tối hơn */
+    padding-bottom: 10px;
+}
+
+/* --- Add Employee Button --- */
+p a.btn-success {
+    margin-bottom: 20px;
+   background-color: #5a7aaa; border-color: #5a7aaa; 
+}
+p a.btn-success:hover {
+   background-color: #4a6a9a; border-color: #4a6a9a; 
+}
+
+
+/* --- Table Styles (Dark Theme) --- */
+.table-bordered {
+    border: 1px solid #44445a; /* Màu viền tối hơn */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Bóng đổ rõ hơn trên nền tối */
+    background-color: #2a2a40; /* Nền bảng tối, hơi khác body */
+    margin-top: 20px;
+}
+
+/* Table Header */
+.table thead th {
+    background-color: #3a3a5a; /* Màu nền header tối */
+    color: #ffffff; /* Chữ trắng */
+    text-align: center;
+    vertical-align: middle;
+    border-color: #44445a; /* Màu viền tối */
+    padding: 0.9rem 0.75rem;
+    border-bottom-width: 2px; /* Làm viền dưới header dày hơn */
+}
+
+/* Table Body */
+.table tbody td {
+    vertical-align: middle;
+    padding: 0.75rem;
+    color: #d0d0d0; /* Màu chữ thân bảng hơi xám */
+    border-color: #44445a; /* Màu viền giữa các ô */
+}
+
+/* Table Row Hover Effect */
+.table tbody tr:hover {
+    background-color: #3f3f5a; /* Màu nền tối hơn nhẹ khi hover */
+    cursor: default;
+    color: #ffffff; /* Chữ sáng hơn khi hover */
+}
+.table tbody tr:hover td {
+     color: #ffffff; /* Đảm bảo tất cả text trong hàng đổi màu */
+}
+
+/* --- Dropdown Styles (Dark Theme) --- */
+.chuc-vu-dropdown {
+    min-width: 120px;
+    background-color: #3a3a5a; /* Nền tối cho dropdown */
+    color: #ffffff; /* Chữ trắng */
+    border: 1px solid #55557a; /* Viền tối hơn */
+}
+/* Có thể cần thêm CSS để tùy chỉnh mũi tên dropdown nếu muốn */
+.chuc-vu-dropdown option {
+    background-color: #3a3a5a; /* Nền cho các option */
+    color: #ffffff;
+}
+
+/* --- Action Buttons Styles (Dark Theme) --- */
+.table td .btn {
+    margin-right: 5px;
+    padding: 0.3rem 0.6rem;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    min-width: 80px;
+    text-align: center;
+    border-width: 1px; /* Đảm bảo có viền */
+}
+
+.table td .btn:last-child {
+    margin-right: 0;
+}
+
+/* Nút Cập nhật (.btn-primary) - Điều chỉnh cho theme tối */
+.btn-cap-nhat {
+    background-color: #4ecca3; /* Màu xanh dương trầm hơn */
+    border-color: #4ecca3;
+    color: white;
+}
+
+.btn-cap-nhat:hover {
+    background-color: #39b88d; /* Màu xanh đậm hơn khi hover */
+    border-color: #39b88d;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Nút Xóa (.btn-danger) - Giữ màu đỏ cảnh báo */
+.btn-xoa {
+    background-color: #dc3545; /* Giữ màu đỏ mặc định của Bootstrap */
+    border-color: #dc3545;
+    color: white;
+}
+
+.btn-xoa:hover {
+    background-color: #c82333; /* Màu đỏ đậm hơn khi hover */
+    border-color: #bd2130;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* --- Responsive Consideration --- */
+.table-responsive {
+     margin-bottom: 1rem;
+     /* Có thể cần thêm viền hoặc hiệu ứng cuộn nếu bảng quá rộng */
+     /* Ví dụ: border: 1px solid #44445a; border-radius: 4px; */
+}
+
+/* --- Loại bỏ focus outline mặc định (tùy chọn) --- */
+.btn:focus, .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(90, 90, 138, 0.5); /* Đổi màu bóng focus */
+}
+
+/* --- General Styles (Dark Theme) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2f; /* Màu nền chính từ trang chủ */
+    color: #2f2f45; /* Màu chữ sáng mặc định cho dễ đọc */
+    padding: 20px;
+    margin: 0; /* Đảm bảo không có margin mặc định */
+}
+
+/* Sidebar dạng dọc */
+.sidebar {
+    width: 80px;
+    height: 100vh;
+    background-color: #1b1b2f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Icon trong sidebar */
+.sidebar a {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+/* Khi rê chuột vào icon */
+.sidebar a:hover {
+    background-color: #2f2f45;
+}
+
+/* Icon hình ảnh */
+.sidebar a img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+/* Hover animation */
+.sidebar a:hover img {
+    transform: scale(1.1);
+}
+
+h2 {
+    color: #ffffff; /* Tiêu đề màu trắng */
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid #2f2f45; /* Đường kẻ dưới màu tối hơn */
+    padding-bottom: 10px;
+}
+
+/* --- Add Employee Button --- */
+p a.btn-success {
+    margin-bottom: 20px;
+   background-color: #5a7aaa; border-color: #5a7aaa; 
+}
+p a.btn-success:hover {
+   background-color: #4a6a9a; border-color: #4a6a9a; 
+}
+
+
+/* --- Table Styles (Dark Theme) --- */
+.table-bordered {
+    border: 1px solid #44445a; /* Màu viền tối hơn */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Bóng đổ rõ hơn trên nền tối */
+    background-color: #2a2a40; /* Nền bảng tối, hơi khác body */
+    margin-top: 20px;
+}
+
+/* Table Header */
+.table thead th {
+    background-color: #3a3a5a; /* Màu nền header tối */
+    color: #ffffff; /* Chữ trắng */
+    text-align: center;
+    vertical-align: middle;
+    border-color: #44445a; /* Màu viền tối */
+    padding: 0.9rem 0.75rem;
+    border-bottom-width: 2px; /* Làm viền dưới header dày hơn */
+}
+
+/* Table Body */
+.table tbody td {
+    vertical-align: middle;
+    padding: 0.75rem;
+    color: #d0d0d0; /* Màu chữ thân bảng hơi xám */
+    border-color: #44445a; /* Màu viền giữa các ô */
+}
+
+/* Table Row Hover Effect */
+.table tbody tr:hover {
+    background-color: #3f3f5a; /* Màu nền tối hơn nhẹ khi hover */
+    cursor: default;
+    color: #ffffff; /* Chữ sáng hơn khi hover */
+}
+.table tbody tr:hover td {
+     color: #ffffff; /* Đảm bảo tất cả text trong hàng đổi màu */
+}
+
+/* --- Dropdown Styles (Dark Theme) --- */
+.chuc-vu-dropdown {
+    min-width: 120px;
+    background-color: #3a3a5a; /* Nền tối cho dropdown */
+    color: #ffffff; /* Chữ trắng */
+    border: 1px solid #55557a; /* Viền tối hơn */
+}
+/* Có thể cần thêm CSS để tùy chỉnh mũi tên dropdown nếu muốn */
+.chuc-vu-dropdown option {
+    background-color: #3a3a5a; /* Nền cho các option */
+    color: #ffffff;
+}
+
+/* --- Action Buttons Styles (Dark Theme) --- */
+.table td .btn {
+    margin-right: 5px;
+    padding: 0.3rem 0.6rem;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    min-width: 80px;
+    text-align: center;
+    border-width: 1px; /* Đảm bảo có viền */
+}
+
+.table td .btn:last-child {
+    margin-right: 0;
+}
+
+/* Nút Cập nhật (.btn-primary) - Điều chỉnh cho theme tối */
+.btn-cap-nhat {
+    background-color: #4ecca3; /* Màu xanh dương trầm hơn */
+    border-color: #4ecca3;
+    color: white;
+}
+
+.btn-cap-nhat:hover {
+    background-color: #39b88d; /* Màu xanh đậm hơn khi hover */
+    border-color: #39b88d;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Nút Xóa (.btn-danger) - Giữ màu đỏ cảnh báo */
+.btn-xoa {
+    background-color: #dc3545; /* Giữ màu đỏ mặc định của Bootstrap */
+    border-color: #dc3545;
+    color: white;
+}
+
+.btn-xoa:hover {
+    background-color: #c82333; /* Màu đỏ đậm hơn khi hover */
+    border-color: #bd2130;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* --- Responsive Consideration --- */
+.table-responsive {
+     margin-bottom: 1rem;
+     /* Có thể cần thêm viền hoặc hiệu ứng cuộn nếu bảng quá rộng */
+     /* Ví dụ: border: 1px solid #44445a; border-radius: 4px; */
+}
+
+/* --- Loại bỏ focus outline mặc định (tùy chọn) --- */
+.btn:focus, .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(90, 90, 138, 0.5); /* Đổi màu bóng focus */
+}
+
+/* --- Form Add Employee (Dark Theme) --- */
+.add-employee-form {
+    background-color: #2a2a40;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.col-md-6 {
+    background-color: #44445a; /* Nền trắng cho khối form */
+    border-radius: 12px;       /* Bo góc */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Đổ bóng nhẹ */
+    color: #1e1e2f;            /* Chữ màu tối để dễ đọc trên nền trắng */
+    padding: 2rem;
+}
+
+.add-employee-form .form-control {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    border: 1px solid #44445a;
+}
+
+.add-employee-form .form-control::placeholder {
+    color: #bbbbbb;
+}
+
+.add-employee-form label {
+    color: #dddddd;
+    font-weight: 500;
+}
+
+.add-employee-form .btn-primary {
+    background-color: #5a7aaa;
+    border-color: #5a7aaa;
+    color: #ffffff;
+}
+
+.add-employee-form .btn-primary:hover {
+    background-color: #4a6a9a;
+    border-color: #4a6a9a;
+}
+
+.add-employee-form .btn-secondary {
+    background-color: #44445a;
+    border-color: #44445a;
+    color: #ffffff;
+}
+
+.add-employee-form .btn-secondary:hover {
+    background-color: #39394f;
+    border-color: #39394f;
+}
+
+.add-employee-form .text-danger {
+    color: #ff6b6b !important;
+}
+
+.add-employee-form hr {
+    border-color: #2f2f45;
+}
+

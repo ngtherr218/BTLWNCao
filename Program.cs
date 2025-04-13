@@ -7,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
-
+// Đăng ký IHttpContextAccessor và Session
+builder.Services.AddHttpContextAccessor();
 // Cấu hình Session - sử dụng RAM
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>

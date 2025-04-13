@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\BTLWNCao.bundle.scp.css"
     },
     {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\AddCompany.css",
+      "PackagePath": "staticwebassets\\css\\AddCompany.css"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\PhanQuyen.css",
+      "PackagePath": "staticwebassets\\css\\PhanQuyen.css"
+    },
+    {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\chat.css",
       "PackagePath": "staticwebassets\\css\\chat.css"
     },

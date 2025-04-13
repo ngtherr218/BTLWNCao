@@ -1,0 +1,105 @@
+@model List<BTLWNCao.Models.UserCongTy>
+
+<link rel="stylesheet" href="~/css/PhanQuyen.css" />
+<h2>Phân quyền người dùng trong công ty</h2>
+
+<p>
+    <a asp-action="AddEmployee" class="btn btn-success">Thêm Nhân Viên</a>
+</p>
+
+<div class="table-responsive"> @* Bọc bảng ở đây *@
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Tên người dùng</th>
+                <th>Tên đăng nhập</th>
+                <th>Email</th>
+                <th>Chức vụ</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="row-@item.MaUserCongTy">
+                <td>@item.User.TenUser</td>
+                <td>@item.User.TenDangNhap</td>
+                <td>@item.User.Email</td>
+                <td>
+                    <select class="form-control chuc-vu-dropdown" data-id="@item.MaUserCongTy">
+                        <option value="Admin" selected="@(item.ChucVu == "Admin")">Admin</option>
+                        <option value="Quản lý" selected="@(item.ChucVu == "Quản lý")">Quản lý</option>
+                        <option value="Nhân viên" selected="@(item.ChucVu == "Nhân viên")">Nhân viên</option>
+                    </select>
+                </td>
+                <td>
+                    <button class="btn btn-primary btn-sm btn-cap-nhat" data-id="@item.MaUserCongTy">Cập nhật</button>
+                    <button class="btn btn-danger btn-sm btn-xoa" data-id="@item.MaUserCongTy" data-username="@item.User.TenUser">Xóa</button>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div> @* Đóng div table-responsive *@
+
+@* Form AntiForgeryToken đã được loại bỏ theo yêu cầu *@
+
+@* ------- Đặt Section Scripts ở cuối file, bên ngoài các thẻ HTML khác ------- *@
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // --- Xử lý Cập nhật ---
+            $(".btn-cap-nhat").click(function () {
+                var maUserCongTy = $(this).data("id");
+                var chucVu = $(this).closest('tr').find('.chuc-vu-dropdown').val();
+
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("CapNhatChucVu", "UserCongTy")",
+                    data: { maUserCongTy: maUserCongTy, chucVu: chucVu },
+                    success: function (res) {
+                        if (res.success) {
+                            alert("Cập nhật chức vụ thành công!");
+                        } else {
+                            alert("Lỗi: " + (res.message || "Không cập nhật được chức vụ."));
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                         console.error("AJAX Error (Cập nhật):", textStatus, errorThrown, jqXHR.responseText);
+                         alert("Đã xảy ra lỗi khi gửi yêu cầu cập nhật. Kiểm tra Console (F12).");
+                    }
+                });
+            });
+
+            // --- Xử lý Xóa ---
+            $(".btn-xoa").click(function () {
+                var maUserCongTy = $(this).data("id");
+                var userName = $(this).data("username");
+                var button = $(this);
+
+                if (confirm(`Bạn có chắc chắn muốn xóa người dùng "${userName}" khỏi công ty?`)) {
+                    $.ajax({
+                        type: "POST",
+                        url: "@Url.Action("DeleteEmployee", "UserCongTy")",
+                        data: { maUserCongTy: maUserCongTy },
+                        success: function (res) {
+                            if (res.success) {
+                                alert("Xóa nhân viên thành công!");
+                                button.closest('tr').fadeOut(500, function() {
+                                    $(this).remove();
+                                });
+                            } else {
+                                alert("Lỗi: " + (res.message || "Không xóa được nhân viên."));
+                            }
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                             console.error("AJAX Error (Xóa):", textStatus, errorThrown, jqXHR.responseText);
+                             alert("Đã xảy ra lỗi khi gửi yêu cầu xóa. Kiểm tra Console (F12).");
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+}
+
