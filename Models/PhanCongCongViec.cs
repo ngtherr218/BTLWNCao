@@ -13,7 +13,7 @@ namespace BTLWNCao.Models
         public int MaUserCongTy { get; set; }
 
         [ForeignKey("MaUserCongTy")]
-        public UserCongTy UserCongTy { get; set; }
+        public UserCongTy? UserCongTy { get; set; }
 
         [Required, StringLength(255)]
         public string TenCongViec { get; set; }
@@ -21,10 +21,10 @@ namespace BTLWNCao.Models
         public string NoiDung { get; set; }
 
         [StringLength(255)]
-        public string Anh { get; set; }
+        public string? Anh { get; set; }
 
         [StringLength(255)]
-        public string FileTaiLieu { get; set; }
+        public string? FileTaiLieu { get; set; }
 
         [Required]
         public DateTime Deadline { get; set; }
@@ -33,12 +33,12 @@ namespace BTLWNCao.Models
         public int MaDuAn { get; set; }
 
         [ForeignKey("MaDuAn")]
-        public DuAn DuAn { get; set; }
+        public DuAn? DuAn { get; set; }
 
         [Required]
         public int MaCongTy { get; set; }
 
         [ForeignKey("MaCongTy")]
-        public CongTy CongTy { get; set; } 
+        public CongTy? CongTy { get; set; } 
     }
 }

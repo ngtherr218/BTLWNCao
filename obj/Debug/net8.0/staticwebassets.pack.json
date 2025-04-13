@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\BTLWNCao.bundle.scp.css"
     },
     {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\create.css",
+      "PackagePath": "staticwebassets\\css\\create.css"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\createproject.css",
+      "PackagePath": "staticwebassets\\css\\createproject.css"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\edit.css",
+      "PackagePath": "staticwebassets\\css\\edit.css"
+    },
+    {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\phancong.css",
+      "PackagePath": "staticwebassets\\css\\phancong.css"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\project.css",
+      "PackagePath": "staticwebassets\\css\\project.css"
     },
     {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\register.css",
@@ -25,8 +45,40 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11. Buổi 3.pptx",
+      "PackagePath": "staticwebassets\\files\\G11. Buổi 3.pptx"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 2 .pptx",
+      "PackagePath": "staticwebassets\\files\\G11.Buổi 2 .pptx"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 4 (1).pptx",
+      "PackagePath": "staticwebassets\\files\\G11.Buổi 4 (1).pptx"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\G11.Buổi 4.pptx",
+      "PackagePath": "staticwebassets\\files\\G11.Buổi 4.pptx"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\NguyenThiTho.xlsx",
+      "PackagePath": "staticwebassets\\files\\NguyenThiTho.xlsx"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\chat.png",
+      "PackagePath": "staticwebassets\\files\\chat.png"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\files\\user (1).png",
+      "PackagePath": "staticwebassets\\files\\user (1).png"
+    },
+    {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\chat.png",
       "PackagePath": "staticwebassets\\images\\chat.png"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\hgocmhjk.png",
+      "PackagePath": "staticwebassets\\images\\hgocmhjk.png"
     },
     {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\profile.png",
@@ -39,6 +91,10 @@
     {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\setting.png",
       "PackagePath": "staticwebassets\\images\\setting.png"
+    },
+    {
+      "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\user (1).png",
+      "PackagePath": "staticwebassets\\images\\user (1).png"
     },
     {
       "Id": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\js\\site.js",

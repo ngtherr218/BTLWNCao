@@ -167,3 +167,4 @@ D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.pdb
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.genruntimeconfig.cache
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\ref\BTLWNCao.dll
 D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.sourcelink.json

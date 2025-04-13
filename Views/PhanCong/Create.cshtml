@@ -1,0 +1,142 @@
+@model BTLWNCao.Models.PhanCongCongViec
+
+@{
+    ViewData["Title"] = "Tạo Phân Công Công Việc";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/create.css" />
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" target="_self">
+            <img src="~/images/chat.png" alt="Chat" width="40" height="40" />
+        </a>
+        <a href="/CTy/Index" target="_self">
+            <img src="~/images/project.png" alt="Project" width="40" height="40" />
+        </a>
+        <a href="#" target="_self">
+            <img src="~/images/profile.png" alt="Profile" width="40" height="40" />
+        </a>
+        <a href="/Login/Logout" target="_self">
+            <img src="~/images/setting.png" alt="Setting" width="40" height="40" />
+        </a>
+    </div>
+
+    <h2>@ViewData["Title"]</h2>
+
+    <form id="taskForm" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="maUserCongTy">Chọn nhân viên:</label>
+            <select id="maUserCongTy" name="MaUserCongTy" class="form-control">
+                <option value="">-- Đang tải danh sách nhân viên... --</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="tenCongViec">Tên Công Việc:</label>
+            <input type="text" id="tenCongViec" name="TenCongViec" required />
+        </div>
+
+        <div>
+            <label for="noiDung">Nội Dung:</label>
+            <textarea id="noiDung" name="NoiDung"></textarea>
+        </div>
+
+        <div>
+            <label for="anh">Ảnh:</label>
+            <input type="file" id="anh" name="Anh" />
+        </div>
+
+        <div>
+            <label for="fileTaiLieu">File Tài Liệu:</label>
+            <input type="file" id="fileTaiLieu" name="FileTaiLieu" />
+        </div>
+
+        <div>
+            <label for="deadline">Deadline:</label>
+            <input type="datetime-local" id="deadline" name="Deadline" required />
+        </div>
+
+        <div>
+            <button type="submit">Tạo Công Việc</button>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var urlParams = new URLSearchParams(window.location.search);
+            var maCongTy = urlParams.get('maCongTy');
+            var maDuAn = urlParams.get('maDuAn');
+
+            if (!maCongTy || !maDuAn) {
+                alert("Mã công ty hoặc mã dự án không tồn tại trong URL!");
+                return;
+            }
+
+            $.ajax({
+                url: '/PhanCong/GetUsersBySessionCompany?maCongTy=' + maCongTy,
+                type: 'GET',
+                success: function (data) {
+                    $('#maUserCongTy').empty();
+                    $('#maUserCongTy').append('<option value="">-- Chọn nhân viên --</option>');
+
+                    if (data.error) {
+                        $('#maUserCongTy').append('<option disabled>' + data.error + '</option>');
+                    } else {
+                        $.each(data, function (i, user) {
+                            $('#maUserCongTy').append('<option value="' + user.maUserCongTy + '">' + user.ten + '</option>');
+                        });
+                    }
+                },
+                error: function () {
+                    alert("Không thể tải danh sách người dùng.");
+                }
+            });
+
+            $('#taskForm').submit(function (e) {
+                e.preventDefault();
+
+                var maUserCongTy = $('#maUserCongTy').val();
+                if (!maUserCongTy) {
+                    alert("Bạn chưa chọn nhân viên!");
+                    return;
+                }
+
+                var formData = new FormData(this);
+                formData.append('MaCongTy', maCongTy);
+                formData.append('MaDuAn', maDuAn);
+
+                $.ajax({
+                    url: '/PhanCong/Create',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                        if (data.success) {
+                            alert("Công việc đã được tạo thành công!");
+                            window.location.reload();
+                        } else {
+                            alert("Lỗi: " + data.errors.join(", "));
+                        }
+                    },
+                    error: function () {
+                        alert("Lỗi không xác định khi gửi dữ liệu.");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

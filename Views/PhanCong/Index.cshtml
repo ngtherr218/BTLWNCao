@@ -1,0 +1,126 @@
+@model List<BTLWNCao.Models.PhanCongCongViec>
+@{
+    var isQuanLy = (string)ViewBag.ChucVu == "Quản lý dự án";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý công việc</title>
+    <link rel="stylesheet" href="~/css/phancong.css" />
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" target="_self">
+            <img src="~/images/chat.png" alt="Chat" width="40" height="40" />
+        </a>
+        <a href="/CTy/Index" target="_self">
+            <img src="~/images/project.png" alt="Project" width="40" height="40" />
+        </a>
+        <a href="#" target="_self">
+            <img src="~/images/profile.png" alt="Profile" width="40" height="40" />
+        </a>
+        <a href="/Login/Logout" target="_self">
+            <img src="~/images/setting.png" alt="Setting" width="40" height="40" />
+        </a>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="content">
+        <h2>Các công việc bạn được phân công trong dự án</h2>
+
+        @if (isQuanLy)
+        {
+            <a asp-action="Create" asp-route-maDuAn="@ViewBag.MaDuAn" asp-route-maCongTy="@ViewBag.MaCongTy"
+                class="btn btn-primary mb-3">
+                + Thêm công việc
+            </a>
+        }
+
+        <p>Bạn là <strong>@ViewBag.ChucVu</strong></p>
+
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Tên công việc</th>
+                    <th>Nội dung</th>
+                    <th>Deadline</th>
+                    <th>Ảnh</th>
+                    <th>Tài liệu</th>
+                    <th>Người thực hiện</th>
+                    @if (isQuanLy)
+                    {
+                        <th>Thao tác</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Count > 0)
+                {
+                    foreach (var task in Model)
+                    {
+                        <tr>
+                            <td>@task.TenCongViec</td>
+                            <td>@task.NoiDung</td>
+                            <td>@task.Deadline.ToString("dd/MM/yyyy")</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(task.Anh))
+                                {
+                                    <img src="@task.Anh" width="100" />
+                                }
+                                else
+                                {
+                                    <span>Không có</span>
+                                }
+                            </td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(task.FileTaiLieu))
+                                {
+                                    <a href="@task.FileTaiLieu" target="_blank">Tải tài liệu</a>
+                                }
+                                else
+                                {
+                                    <span>Không có</span>
+                                }
+                            </td>
+                            <td>@task.UserCongTy?.User?.TenUser</td>
+                            @if (isQuanLy)
+                            {
+                                <td>
+                                    <a asp-action="Edit" asp-route-id="@task.MaCongViec" asp-route-maCongTy="@task.MaCongTy"
+                                        asp-route-maDuAn="@task.MaDuAn" class="btn btn-sm btn-warning">Sửa</a>
+
+                                    <a href="javascript:void(0);" class="btn btn-sm btn-danger"
+                                        onclick="confirmDelete(@task.MaCongViec, @task.MaDuAn, @ViewBag.MaCongTy)">
+                                        Xóa
+                                    </a>
+
+                                </td>
+                            }
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="7">Không có công việc nào được phân công.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    @section Scripts {
+    <script>
+        function confirmDelete(id, maDuAn, maCongTy) {
+            if (confirm("Bạn có chắc chắn muốn xóa công việc này không?")) {
+                window.location.href = '/PhanCong/DeleteConfirmed?id=' + id + '&maDuAn=' + maDuAn + '&maCongTy=' + maCongTy;
+            }
+        }
+    </script>
+    }
+</body>
+</html>

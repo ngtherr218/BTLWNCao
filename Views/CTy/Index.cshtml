@@ -1,0 +1,49 @@
+@model List<BTLWNCao.Models.CongTy>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat UI</title>
+    <link rel="stylesheet" href="~/css/project.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="#" target="_self">
+                <img src="~/images/chat.png" alt="Chat" width="40" height="40" />
+            </a>
+            <a href="/CTy/Index" target="_self">
+                <img src="~/images/project.png" alt="Project" width="40" height="40" />
+            </a>
+            <a href="#" target="_self">
+                <img src="~/images/profile.png" alt="Profile" width="40" height="40" />
+            </a>
+            <a href="/Login/Logout" target="_self">
+                <img src="~/images/setting.png" alt="Setting" width="40" height="40" />
+            </a>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <h2>Các công ty bạn đang tham gia</h2>
+
+            <ul>
+                @foreach (var ct in Model)
+                {
+                    <li>
+                        <a asp-controller="DuAn" asp-action="Index" asp-route-maCongTy="@ct.MaCongTy">
+                            @ct.TenCongTy
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

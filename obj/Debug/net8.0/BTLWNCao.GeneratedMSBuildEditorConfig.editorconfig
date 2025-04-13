@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Project\Web\LTWNangCao\BTLWNCao
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Project/Web/LTWNangCao/BTLWNCao/Views/CTy/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1R5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Web/LTWNangCao/BTLWNCao/Views/DuAn/CreateProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVBblxDcmVhdGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Web/LTWNangCao/BTLWNCao/Views/DuAn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVBblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Project/Web/LTWNangCao/BTLWNCao/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +48,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Project/Web/LTWNangCao/BTLWNCao/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Web/LTWNangCao/BTLWNCao/Views/PhanCong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhbkNvbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Web/LTWNangCao/BTLWNCao/Views/PhanCong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhbkNvbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Project/Web/LTWNangCao/BTLWNCao/Views/PhanCong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhhbkNvbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Project/Web/LTWNangCao/BTLWNCao/Views/Register/Register.cshtml]
