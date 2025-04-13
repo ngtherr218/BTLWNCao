@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mknh9QDZPx4hAdhrFEKW+bxMUbNXXjFRpeII5x2rizQ=",
+  "Hash": "nIG5zUXPmeDiW0R8bOBnHo9v32x8PyH8RYAFfT3oYZA=",
   "Source": "BTLWNCao",
   "BasePath": "_content/BTLWNCao",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTLWNCao.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\chat.css",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "css/chat.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chat.css"
     },
     {
       "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\create.css",
@@ -110,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\edit.css"
-    },
-    {
-      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\home.css",
-      "SourceId": "BTLWNCao",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
-      "BasePath": "_content/BTLWNCao",
-      "RelativePath": "css/home.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\css\\login.css",
@@ -414,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hgocmhjk.png"
+    },
+    {
+      "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\placeholder-chat.png",
+      "SourceId": "BTLWNCao",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\",
+      "BasePath": "_content/BTLWNCao",
+      "RelativePath": "images/placeholder-chat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\placeholder-chat.png"
     },
     {
       "Identity": "D:\\Project\\Web\\LTWNangCao\\BTLWNCao\\wwwroot\\images\\profile.png",

@@ -1,22 +1,35 @@
-using Microsoft.EntityFrameworkCore;
 using BTLWNCao.Models;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Cấu hình DbContext vào DI container
+// Cấu hình DbContext với Connection String từ appsettings.json
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
-// ⚡ Thêm dịch vụ session
-builder.Services.AddDistributedMemoryCache(); // Lưu session tạm trong RAM
+// Cấu hình Session - sử dụng RAM
+builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Hết hạn sau 30 phút
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Hết hạn sau 30 phút không hoạt động
+    options.Cookie.HttpOnly = true; // Ngăn không cho truy cập từ JavaScript
+    options.Cookie.IsEssential = true; // Bắt buộc phải có (cho GDPR)
 });
 
-builder.Services.AddControllersWithViews();
+// Thêm dịch vụ MVC (Controllers + Views) và cấu hình JSON options
+builder
+    .Services.AddControllersWithViews()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System
+            .Text
+            .Json
+            .Serialization
+            .ReferenceHandler
+            .Preserve;
+        options.JsonSerializerOptions.WriteIndented = true;
+    });
 
 var app = builder.Build();
 
@@ -32,14 +45,12 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// ⚡ Bật middleware session
+// Kích hoạt Session Middleware (phải đặt trước Authorization)
 app.UseSession();
 
 app.UseAuthorization();
 
-// Cấu hình routing cho controllers
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Login}/{action=Login}/{id?}");
+// Cấu hình default route
+app.MapControllerRoute(name: "default", pattern: "{controller=Login}/{action=Login}/{id?}");
 
 app.Run();

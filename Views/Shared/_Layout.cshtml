@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="~/BTLWNCao.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    @await Html.PartialAsync("_SlideBar")
+
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+    
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

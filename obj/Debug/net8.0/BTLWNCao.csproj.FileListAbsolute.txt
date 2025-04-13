@@ -8,6 +8,7 @@ D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\BTLWNCao.dll
 D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\BTLWNCao.pdb
 D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\Azure.Core.dll
 D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\Azure.Identity.dll
+D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\Humanizer.dll
 D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\Microsoft.Build.Locator.dll
@@ -150,6 +151,7 @@ D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.csproj.CoreCompileI
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.MvcApplicationPartsAssemblyInfo.cache
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.RazorAssemblyInfo.cache
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.RazorAssemblyInfo.cs
+D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.sourcelink.json
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\staticwebassets.build.json
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\staticwebassets.development.json
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\staticwebassets\msbuild.BTLWNCao.Microsoft.AspNetCore.StaticWebAssets.props
@@ -166,5 +168,3 @@ D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\refint\BTLWNCao.dll
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.pdb
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.genruntimeconfig.cache
 D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\ref\BTLWNCao.dll
-D:\Project\Web\LTWNangCao\BTLWNCao\bin\Debug\net8.0\BCrypt.Net-Next.dll
-D:\Project\Web\LTWNangCao\BTLWNCao\obj\Debug\net8.0\BTLWNCao.sourcelink.json
